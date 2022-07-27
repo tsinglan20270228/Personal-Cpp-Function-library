@@ -2,7 +2,7 @@
     <h2 id="-main -chinese">关于iclib</h2>
     <br><hr><br>
     <p>Iclib吗，是一个作者手敲的简简单单的函数库。<br>然后呢，这个函数库会不定时更新。（话说我做的这么烂，应该没有人会用吧）
-    <br>声明：该函数库为作者个人创意，如有雷同，纯属巧合。（算法部分难免雷同啊！）
+    <br>声明：该函数库为作者个人手敲，如有雷同，纯属巧合。（算法部分难免雷同啊！）
     <br>这个函数库目前支持以下的几个函数(仅写上了一些重点函数)</p>
     <ul>
         <li>long long pow(int,int)&nbsp;&nbsp;&nbsp;&nbsp;格式为pow(int __firstnumber,int __powernumber),用于计算__firstnumber的__powernumber次方的值，有返回值</li>
