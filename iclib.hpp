@@ -49,8 +49,8 @@ float BMI(float height_cm,float weight_kg,bool ReturnOrNot){                    
 		return BMI;
 	}
 }
-unsigned long long factorial(int i){//返回整数阶乘 
-	unsigned long long count=1;
+long double factorial(int i){//返回整数阶乘 
+	long double count=1;
 	for(int j=i;j>0;j--){
 		count*=j;
 	}
@@ -194,11 +194,9 @@ class intStack{//数字类型栈
 			else return &(this->__arr[this->__top-1]);
 		}//返回栈顶地址 
 		inline bool empty(){
-			if(this->__top>=0){
-				return this->__top==0;
-			}else{
-				cout<<"Error: At class intStack, __top shouldn't smaller than 0!Excepted error.";return 0;
-			}
+			if(this->__top>=0)  return this->__top==0;
+			else  cout<<"Error: At class intStack, __top shouldn't smaller than 0!Excepted error.";return 0;
+			
 		}//返回是否为空 
 };
 struct linkedList_node{
